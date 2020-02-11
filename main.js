@@ -24,6 +24,15 @@ function Play(e) {
     case 'z':
     case 'x':
     case 'c':
+    case 'Q':
+    case 'W':
+    case 'E':
+    case 'A':
+    case 'S':
+    case 'D':
+    case 'Z':
+    case 'X':
+    case 'C':
       document.querySelector(`#drum-${e.key}`).click();
   }
 }
