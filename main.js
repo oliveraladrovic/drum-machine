@@ -33,6 +33,6 @@ function Play(e) {
     case 'Z':
     case 'X':
     case 'C':
-      document.querySelector(`#drum-${e.key}`).click();
+      document.querySelector(`#drum-${e.key.toLowerCase()}`).click();
   }
 }
